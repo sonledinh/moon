@@ -46,5 +46,27 @@
                 </div>
             </div>
         </div>
+        <div class="header-mobile" style="display: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-6">
+                        <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                    </div>
+                    <div class="col-6 col-sm-6">
+                        <div class="btn-header text-right"><a href="#menu"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li><a href="">Cảm nhận khách hàng</a></li>
+                    <li><a href="">Góc tư vấn</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
  

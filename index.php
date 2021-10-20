@@ -1,6 +1,6 @@
  <?php include 'header.php';?>
 <main>
-    <div class="box-banner">
+    <section class="box-banner">
         <div class="slide-banner">
             <div class="item-slide">
                 <div class="item-bn"><a href=""><img src="images/banner.png" class="img-fluid w-100" alt=""></a></div>
@@ -12,7 +12,7 @@
                 <div class="item-bn"><a href=""><img src="images/banner.png" class="img-fluid w-100" alt=""></a></div>
             </div>
         </div>
-    </div>
+    </section>
     <section class="box-srv-home">
         <div class="container">
             <div class="title text-center">
@@ -21,7 +21,7 @@
             </div>
             <div class="content-srv">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-7">
                         <div class="list-srv">
                             <div class="item-srv">
                                 <div class="icon"><img src="images/srv-1.png" class="img-fluid" alt=""></div>
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 col-sm-5 text-center">
                         <div class="avr"><img src="images/avr-srv.png" class="img-fluid" alt=""></div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="list-ab">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="item-about">
                                 <div class="icon"><img src="images/ab-1.png" class="img-fluid" alt=""></div>
                                 <div class="info">
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="item-about">
                                 <div class="icon"><img src="images/ab-2.png" class="img-fluid" alt=""></div>
                                 <div class="info">
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="item-about">
                                 <div class="icon"><img src="images/ab-3.png" class="img-fluid" alt=""></div>
                                 <div class="info">
@@ -187,10 +187,10 @@
             </div>
             <div class="content-why">
                 <div class="row align-items-center">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-sm-6">
                         <div class="avr-why"><img src="images/why.png" class="img-fluid" alt=""></div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-sm-6">
                         <div class="list-why">
                             <div class="item-w">
                                 <div class="icon"><img src="images/w-1.png" class="img-fluid" alt=""></div>
@@ -227,7 +227,7 @@
             </div>
             <div class="list-blog">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="item-blog">
                             <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">
@@ -235,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="item-blog">
                             <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">
@@ -243,7 +243,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="item-blog">
                             <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">

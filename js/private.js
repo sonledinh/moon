@@ -27,6 +27,22 @@ $('.slide-partner').slick({
     slidesToScroll: 2, 
     prevArrow: '', 
     nextArrow: '',
+    responsive: [
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        }
+    ],
 });  
 
 jQuery(document).ready(function( $ ) {

@@ -36,7 +36,7 @@
                         <li class="current-menu-item"><a href="">Trang chủ</a></li>
                         <li><a href="">Giới thiệu</a></li>
                         <li><a href="">Dịch vụ</a></li>
-                        <li><a href="">Cảm nhận khách hàng</a></li>
+                        <li><a href="#feed-b">Cảm nhận khách hàng</a></li>
                         <li><a href="">Góc tư vấn</a></li>
                         <li><a href="">Liên hệ</a></li>
                     </ul>

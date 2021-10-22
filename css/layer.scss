@@ -64,7 +64,28 @@ body {
         font-size: 14px;
     }
 }
+.aligncenter {
+    margin: 0 auto;
+    display: block;
+}
 
+.alignright {
+    display: block;
+    float: right;
+    padding-left: 10px;
+}
+
+.alignleft {
+    float: left;
+    padding-right: 10px;
+}
+.detail {
+    h2 {font-size: 25px;}
+    h3 {font-size: 23px;}
+    h4 {font-size: 21px;}
+    h5 {font-size: 19px;}
+    h6 {font-size: 17px;}
+}
 .slick-dots {
     bottom: 15px;
     button {

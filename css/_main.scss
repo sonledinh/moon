@@ -23,7 +23,7 @@
 		margin-bottom: 0;
 	}
 	.icon {
-		margin-bottom: 20px;
+		margin-bottom: 20px; 
 	}
 	.info {
 		h2 {
@@ -728,4 +728,125 @@
 		order: 1;
 		margin-bottom: 30px;
 	}
+}
+
+.detail-content {
+	padding: 60px 0;
+	@media (max-width: 767px) {
+		padding: 30px 0;
+	}
+}
+.detail-top {
+	margin-bottom: 30px;
+	h1 {
+		line-height: initial;
+	    font-weight: bold;
+	    font-size: 28px;
+	    text-align: center;
+	    color: #fec003;
+	}
+	@media (max-width: 767px) {
+		margin-bottom: 15px;
+		h1 {
+			font-size: 20px;
+		}
+	}
+}
+.info-detail {
+	img {
+		max-width: 100%;
+		height: auto !important;
+	}
+	p {
+		margin-bottom: 15px;
+		img {
+			max-width: 100%;
+			height: auto !important;
+		}
+	}
+	ul {
+		margin-bottom: 15px;
+		padding-left: 18px;
+		li {
+			margin-bottom: 8px;
+		}
+	}
+}
+.box-other {
+	padding: 0 0 60px 0;
+	@media (max-width: 767px) {
+		padding: 0 0 20px 0;
+	}
+}
+.list-other {
+	.row {
+		margin: 0 -7px;
+		>div {
+			padding: 5px 7px;
+		}
+	}
+}
+
+.box-form-detail {
+	padding: 40px 0;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+.form-congtacvien {
+	max-width: 600px;
+    width: 100%;
+    border: 1px solid #ffde59;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    .title-ctv {
+    	font-weight: bold;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    text-align: center;
+	    margin-bottom: 15px;
+    }
+    ul {
+    	display: flex;
+	    list-style: none;
+	    justify-content: center;
+	    margin: 0 -5px;
+	    li {
+	    	padding: 0 5px;
+	    	flex: 0 0 calc(100% / 3);
+	    }
+    }
+    .txt_field {
+    	width: 100%;
+	    border: 1px solid #ffde59;
+	    padding: 0 10px;
+	    height: 36px;
+	    border-radius: 5px;
+    }
+    .btn-sub-ctv {
+    	padding-top: 15px;
+    	.btn-ctv {
+    		background: #ffde59;
+		    height: 40px;
+		    padding: 0 15px;
+		    border-radius: 5px;
+		    border: 0;
+		    cursor: pointer;
+		    font-weight: bold;
+		    color: #484848;
+    	}
+    }
+    @media (max-width: 575px) {
+    	ul {
+    		margin: 0;
+    		display: block;
+    		li {
+    			margin-bottom: 10px;
+    			&:last-child {
+    				margin-bottom: 0;
+    			}
+    		}
+    	}
+    }
 }

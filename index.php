@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section class="box-feedback">
+    <section class="box-feedback" id="feed-b">
         <div class="container">
             <div class="title text-center">
                 <h2>Đánh giá của khách hàng</h2>
